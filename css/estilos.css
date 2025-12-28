@@ -1,9 +1,7 @@
-/* RESET BÁSICO */
 * {
   box-sizing: border-box;
 }
 
-/* BASE */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -12,21 +10,21 @@ body {
   color: #ffffff;
 }
 
-/* HEADER */
 header {
   background-color: #062342;
   color: white;
-  padding: 20px 20px;
+  padding: 60px 20px;
+
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 200px;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .texto {
   display: flex;
   flex-direction: column;
-  flex: 0 0 auto;
+  flex: 1;
 }
 
 header h1 {
@@ -39,16 +37,14 @@ header p {
   margin: 10px 0 0;
 }
 
-/* IMAGEN */
 header img {
-  max-width: 250px;
-  width: auto;
+  max-width: 300px;
+  width: 100%;
   height: auto;
   border-radius: 50%;
   border: 4px solid black;
 }
 
-/* SECCIONES */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -65,7 +61,6 @@ h2 {
   margin-bottom: 20px;
 }
 
-/* SKILLS Y PROJECTS */
 .skills,
 .projects {
   display: flex;
@@ -83,7 +78,6 @@ h2 {
   flex: 1 1 300px;
 }
 
-/* FOOTER */
 footer {
   background-color: #333;
   color: white;
@@ -91,13 +85,11 @@ footer {
   padding: 20px;
 }
 
-/* LINKS */
 a {
   color: #007bff;
   text-decoration: none;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
 
   header {
