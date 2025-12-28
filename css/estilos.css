@@ -102,3 +102,31 @@ a {
   color: #007bff;
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .texto {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  header h1 {
+    font-size: 36px;
+    white-space: normal;
+    /* deja romper línea */
+  }
+
+  header p {
+    padding: 10px 0;
+  }
+
+  header img {
+    width: 200px;
+    margin-top: 20px;
+  }
+}
